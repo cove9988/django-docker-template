@@ -11,4 +11,8 @@ Starting your project
 
 Run the following command::
 
-    $ django-admin.py startproject --template=https://github.com/glynjackson/django-docker-template/zipball/master mysite
+    $ django-admin.py startproject --template=https://github.com/glynjackson/django-docker-template/mysite mysite
+
+If you run from local clone, Run the following command:
+
+     $ django-admin.py startproject --template=./django-docker-template/mysite mysite
